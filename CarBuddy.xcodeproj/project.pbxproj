@@ -44,6 +44,8 @@
 		06D6A79B2888946000E9B782 /* CarBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D6A79F2888946000E9B782 /* CarBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuddyUITests.swift; sourceTree = "<group>"; };
 		06D6A7A12888946000E9B782 /* CarBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06D6A7BC2888980100E9B782 /* NetworkingKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkingKit; path = CarBuddyModules/NetworkingKit; sourceTree = "<group>"; };
+		06D6A7BD2888981400E9B782 /* OAuthKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OAuthKit; path = CarBuddyModules/OAuthKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		06D6A7782888945F00E9B782 = {
 			isa = PBXGroup;
 			children = (
+				06D6A7BB2888980100E9B782 /* Packages */,
 				06D6A7832888945F00E9B782 /* CarBuddy */,
 				06D6A7942888946000E9B782 /* CarBuddyTests */,
 				06D6A79E2888946000E9B782 /* CarBuddyUITests */,
@@ -125,6 +128,15 @@
 				06D6A7A12888946000E9B782 /* CarBuddyUITestsLaunchTests.swift */,
 			);
 			path = CarBuddyUITests;
+			sourceTree = "<group>";
+		};
+		06D6A7BB2888980100E9B782 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				06D6A7BC2888980100E9B782 /* NetworkingKit */,
+				06D6A7BD2888981400E9B782 /* OAuthKit */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

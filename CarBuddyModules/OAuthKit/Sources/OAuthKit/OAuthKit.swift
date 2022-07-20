@@ -1,0 +1,6 @@
+public struct OAuthKit {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
